@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wordpress.sjatyourservice.knowyourjharkhand"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.wordpress.sjatyourservice.knowyourjharkhand.KnowYourJharkhand"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.wordpress.sjatyourservice.knowyourjharkhand.Contents"
+            android:label="contents" >
+        </activity>
+        <activity
+            android:name="com.wordpress.sjatyourservice.knowyourjharkhand.Drought_Prone"
+            android:label="Drought Prone District" >
+        </activity>
+        <activity
+            android:name="com.wordpress.sjatyourservice.knowyourjharkhand.Jharkhand_Tourism"
+            android:label="JHARKHAND TOURISM" >
+        </activity>
+        <activity
+            android:name="com.wordpress.sjatyourservice.knowyourjharkhand.Literacy_Rate"
+            android:label="Literacy Rate" >
+        </activity>
+        <activity
+            android:name="com.wordpress.sjatyourservice.knowyourjharkhand.Gender_Ratio"
+            android:label="Gender Ratio" >
+        </activity>
+        <activity
+            android:name="com.wordpress.sjatyourservice.knowyourjharkhand.Baidhnath_dham"
+            android:label="Baidhnathdham" >
+        </activity>
+        <activity
+            android:name="com.wordpress.sjatyourservice.knowyourjharkhand.Ranchi_Hills"
+            android:label="Ranchi Hills" >
+        </activity>
+        <activity
+            android:name="com.wordpress.sjatyourservice.knowyourjharkhand.Contact_Info"
+            android:label="Contact Information" >
+        </activity>
+        <activity
+            android:name="com.wordpress.sjatyourservice.knowyourjharkhand.Jamshedpur_Beauty"
+            android:label="Jamshedpur Beauty" >
+        </activity>
+        <activity
+            android:name="com.wordpress.sjatyourservice.knowyourjharkhand.Shortcommings"
+            android:label="Shortcommings" >
+        </activity>
+        <activity
+            android:name="com.wordpress.sjatyourservice.knowyourjharkhand.Population_Growth"
+            android:label="Population Growth" >
+        </activity>
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </application>
+
+</manifest>
