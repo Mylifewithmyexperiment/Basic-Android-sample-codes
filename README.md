@@ -1,2 +1,2 @@
-# Basic-Android-sample-codes
-These codes are compatible with ecilpse environment
+# Eclipse-Android-codes
+These codes are made in ecilpse environment
